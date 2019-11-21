@@ -23,7 +23,7 @@ C:\Users\myapp\config\database.yml　を配布したファイルでファイル�
 # ⑥ ファイルを配置します
 C:\Users\myapp\mysql-confd　に　ファイル（default_authentication.cnf）を配置します
 <br><br>
-# ⑦ コンテナをビルドします
+# ⑦ イメージをビルドします
 ```
 docker-compose build
 ```
