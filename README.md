@@ -182,18 +182,21 @@ http://localhost:3000/
 # おまけ
 
 <br>
+
 # モデルから画面まで自動生成
 
 ```
 rails g scaffold Personal number:string name:string date:string
 ```
 <br>
+
 # 追加したモデルの分テーブルを作成する
 
 ```
 rails db:migrate
 ```
 <br>
+
 # Personalへのルーティングを追加
 vi ./config/routes.rb
 
