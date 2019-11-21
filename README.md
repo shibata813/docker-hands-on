@@ -1,4 +1,9 @@
-# ① myappをユーザー直下に解凍します
+# ① myappをユーザー直下に配置します
+<br>
+docker-hands-on-master.zipを解答し、ユーザー直下に配置します
+
+
+
 ![image-20191119101214129](https://user-images.githubusercontent.com/53431136/69317135-a5c7c700-0c7d-11ea-9b27-40e50614be1f.png)
 <br><br>
 # ② 配置したmyappフォルダに移動します
@@ -172,3 +177,15 @@ http://localhost:3000/
 
 <br>
 このような画面が表示されたら完成！
+
+<br><br><br>
+# おまけ
+
+<br>
+以下のコマンドを実行すると、自動的にファイルを作成してくれます。
+<br>
+```
+
+```
+
+
