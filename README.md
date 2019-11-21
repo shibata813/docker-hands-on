@@ -10,12 +10,7 @@ cd C:\Users\myapp
 ```
 docker-compose run web rails new . --force --no-deps --database=mysql
 ```
-→実行するとmyappは以下にファイルが増えます
-#### (1)Pulling db （mysql）
-　　→mysqlのDBを構築
-#### (2)Pulling from library/ruby
-　　→rubyの環境を構築
-→「Bundle complete!」が出たら完了！
+→実行するとmyapp配下にファイルが増えます
 <br><br>
 # ④ DBの設定を変更するため、一度コンテナを停止します
 ```
