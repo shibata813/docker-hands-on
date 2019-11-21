@@ -58,15 +58,10 @@ docker ps -a
 ↑のように「myapp_web」と「mysql」のコンテナがupしていればOK！
 <br>
 
-<br>
 以下に接続してみましょう！
-<br>
 ```
 http://localhost:3000/
 ```
-<br>
-![rails](https://user-images.githubusercontent.com/53431136/69325441-85076d80-0c8d-11ea-9610-786f056a8201.png)
-
 
 <br><br>
 
