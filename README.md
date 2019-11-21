@@ -1,5 +1,5 @@
 # ① myappをユーザー直下に解凍します
-![image-20191119101214129.png](/knowledge/open.file/download?fileNo=51)
+![image-20191119101214129](https://user-images.githubusercontent.com/53431136/69317135-a5c7c700-0c7d-11ea-9b27-40e50614be1f.png)
 <br><br>
 # ② 配置したmyappフォルダに移動します
 ```
