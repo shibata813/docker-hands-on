@@ -198,7 +198,7 @@ rails db:migrate
 <br>
 
 # Personalへのルーティングを追加
-vi ./config/routes.rb
+config/routes.rb
 
 ```
 Rails.application.routes.draw do
