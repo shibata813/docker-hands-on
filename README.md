@@ -212,4 +212,7 @@ config/routes.rb
  end
 ```
 
-
+# 以下に接続して確認！
+```
+http://localhost:3000/personals
+```
