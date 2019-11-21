@@ -147,7 +147,7 @@ Employee.create(
 )
 ```
 <br><br>
-# ⑮ DBにデータを送る
+# ⑮ ⑭のファイルを元にデータを作成する
 ```
 rails db:seed
 ```
