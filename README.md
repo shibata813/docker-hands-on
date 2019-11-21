@@ -56,7 +56,7 @@ docker-compose up -d
 docker ps -a
 ```
 ↑のように「myapp_web」と「mysql」のコンテナがupしていればOK！
-<br>
+<br><br>
 
 以下に接続してみましょう！
 <br><br>
@@ -214,6 +214,7 @@ touch app/views/employees/edit.html.erb
 ```
 http://localhost:3000/
 ```
-![image-20191121003744232.png](/knowledge/open.file/download?fileNo=56)
+![image-20191121003744232](https://user-images.githubusercontent.com/53431136/69325948-53db6d00-0c8e-11ea-982e-650f9e31d71d.png)
+
 <br>
 このような画面が表示されたら完成！
