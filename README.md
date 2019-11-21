@@ -216,3 +216,7 @@ config/routes.rb
 ```
 http://localhost:3000/personals
 ```
+
+<br>
+
+![キャプチャ](https://user-images.githubusercontent.com/53431136/69335804-d40ace00-0ca0-11ea-9fe8-3a8f0cbd74c4.PNG)
