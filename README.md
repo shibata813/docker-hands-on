@@ -1,7 +1,10 @@
 # ① myappをユーザー直下に配置します
 <br>
-docker-hands-on-master.zipを解答し、ユーザー直下に配置します
 
+docker-hands-on-master.zipを解答し、ユーザー直下に配置します
+![キャプチャ](https://user-images.githubusercontent.com/53431136/69335083-7033d580-0c9f-11ea-9253-b1a876eae9ae.PNG)
+
+<br>
 
 
 ![image-20191119101214129](https://user-images.githubusercontent.com/53431136/69317135-a5c7c700-0c7d-11ea-9b27-40e50614be1f.png)
