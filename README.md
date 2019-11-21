@@ -39,7 +39,7 @@ docker-compose up -d db
 docker-compose run web rake db:create
 ```
 <br><br>
-# ⑩ up　します 
+# ⑩ ビルドしたイメージからコンテナを起動します 
 ```
 docker-compose up -d
 ```
