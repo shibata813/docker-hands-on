@@ -182,10 +182,22 @@ http://localhost:3000/
 # おまけ
 
 <br>
-以下のコマンドを実行すると、自動的にファイルを作成してくれます。
-<br>
 ```
+# モデルから画面まで自動生成
+rails g scaffold Personal number:string name:string date:string
+# 追加したモデルの分テーブルを作成する
+rails db:migrate
+# Personalへのルーティングを追加
+vi ./config/routes.rb
 
+ 
+
+Rails.application.routes.draw do
+  resources :personals
+    root to: 'employees#index'
+    resources :employees
+     resources :personal # <- 追加
+end
 ```
 
 
