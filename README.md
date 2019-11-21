@@ -1,132 +1,205 @@
-# ‡@ myapp‚ğƒ†[ƒU[’¼‰º‚É‰ğ“€‚µ‚Ü‚·
+# â‘  myappã‚’ãƒ¦ãƒ¼ã‚¶ãƒ¼ç›´ä¸‹ã«è§£å‡ã—ã¾ã™
 ![image-20191119101214129.png](/knowledge/open.file/download?fileNo=51)
 <br><br>
-# ‡A ”z’u‚µ‚½myappƒtƒHƒ‹ƒ_‚ÉˆÚ“®‚µ‚Ü‚·
+# â‘¡ é…ç½®ã—ãŸmyappãƒ•ã‚©ãƒ«ãƒ€ã«ç§»å‹•ã—ã¾ã™
 ```
 cd C:\Users\myapp
 ```
 <br><br>
-# ‡B 
+# â‘¢ 
 ```
 docker-compose run web rails new . --force --no-deps --database=mysql
 ```
-¨Às‚·‚é‚Æmyapp‚ÍˆÈ‰º‚Éƒtƒ@ƒCƒ‹‚ª‘‚¦‚Ü‚·
-#### (1)Pulling db imysqlj
-@@¨mysql‚ÌDB‚ğ\’z
+â†’å®Ÿè¡Œã™ã‚‹ã¨myappã¯ä»¥ä¸‹ã«ãƒ•ã‚¡ã‚¤ãƒ«ãŒå¢—ãˆã¾ã™
+#### (1)Pulling db ï¼ˆmysqlï¼‰
+ã€€ã€€â†’mysqlã®DBã‚’æ§‹ç¯‰
 #### (2)Pulling from library/ruby
-@@¨ruby‚ÌŠÂ‹«‚ğ\’z
-¨uBundle complete!v‚ªo‚½‚çŠ®—¹I
+ã€€ã€€â†’rubyã®ç’°å¢ƒã‚’æ§‹ç¯‰
+â†’ã€ŒBundle complete!ã€ãŒå‡ºãŸã‚‰å®Œäº†ï¼
 <br><br>
-# ‡C DB‚Ìİ’è‚ğ•ÏX‚·‚é‚½‚ßAˆê“xƒRƒ“ƒeƒi‚ğ’â~‚µ‚Ü‚·
+# â‘£ DBã®è¨­å®šã‚’å¤‰æ›´ã™ã‚‹ãŸã‚ã€ä¸€åº¦ã‚³ãƒ³ãƒ†ãƒŠã‚’åœæ­¢ã—ã¾ã™
 ```
 docker-compose down
 ```
 <br><br>
-# ‡D DB‚ÌŒü‚«‚ğ•ÏX‚µ‚Ü‚·
-C:\Users\myapp\config\database.yml@‚ğ”z•z‚µ‚½ƒtƒ@ƒCƒ‹‚Åƒtƒ@ƒCƒ‹‚²‚Æã‘‚«‚µ‚Ü‚·
+# â‘¤ DBã®å‘ãã‚’å¤‰æ›´ã—ã¾ã™
+C:\Users\myapp\config\database.ymlã€€ã‚’é…å¸ƒã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ã§ãƒ•ã‚¡ã‚¤ãƒ«ã”ã¨ä¸Šæ›¸ãã—ã¾ã™
 <br><br>
-# ‡E ƒtƒ@ƒCƒ‹‚ğ”z’u‚µ‚Ü‚·
-C:\Users\myapp\mysql-confd@‚É@ƒtƒ@ƒCƒ‹idefault_authentication.cnfj‚ğ”z’u‚µ‚Ü‚·
+# â‘¥ ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é…ç½®ã—ã¾ã™
+C:\Users\myapp\mysql-confdã€€ã«ã€€ãƒ•ã‚¡ã‚¤ãƒ«ï¼ˆdefault_authentication.cnfï¼‰ã‚’é…ç½®ã—ã¾ã™
 <br><br>
-# ‡F ƒRƒ“ƒeƒi‚ğƒrƒ‹ƒh‚µ‚Ü‚·
+# â‘¦ ã‚³ãƒ³ãƒ†ãƒŠã‚’ãƒ“ãƒ«ãƒ‰ã—ã¾ã™
 ```
 docker-compose build
 ```
-¨uSuccessfully built œœœœœœœœœv‚ªo‚½‚çŠ®—¹I
+â†’ã€ŒSuccessfully built â—â—â—â—â—â—â—â—â—ã€ãŒå‡ºãŸã‚‰å®Œäº†ï¼
 <br><br>
-# ‡G æ‚ÉDB‚ğ‹N“®‚µ‚Ü‚·
+# â‘§ å…ˆã«DBã‚’èµ·å‹•ã—ã¾ã™
 ```
 docker-compose up -d db
 ```
 <br><br>
-# ‡H web‚ğ‹N“®‚µ‚Ü‚·
+# â‘¨ webã‚’èµ·å‹•ã—ã¾ã™
 ```
 docker-compose run web rake db:create
 ```
 <br><br>
-# ‡I up@‚µ‚Ü‚· 
+# â‘© upã€€ã—ã¾ã™ 
 ```
 docker-compose up -d
 ```
 <br><br>
 ![image-20191120110345036.png](/knowledge/open.file/download?fileNo=54)
 <br>
-# šƒ`ƒFƒbƒNƒ|ƒCƒ“ƒgš
-³í‚É‹N“®‚µ‚Ä‚¢‚é‚©‚ğŠm”F
+# â˜…ãƒã‚§ãƒƒã‚¯ãƒã‚¤ãƒ³ãƒˆâ˜…
+æ­£å¸¸ã«èµ·å‹•ã—ã¦ã„ã‚‹ã‹ã‚’ç¢ºèª
 ```
 docker ps -a
 ```
 ![image-20191120105738281.png](/knowledge/open.file/download?fileNo=52)
-ª‚Ì‚æ‚¤‚Éumyapp_webv‚Æumysqlv‚ÌƒRƒ“ƒeƒi‚ªup‚µ‚Ä‚¢‚ê‚ÎOKI
+â†‘ã®ã‚ˆã†ã«ã€Œmyapp_webã€ã¨ã€Œmysqlã€ã®ã‚³ãƒ³ãƒ†ãƒŠãŒupã—ã¦ã„ã‚Œã°OKï¼
 <br>
 ![image-20191120110345036.png](/knowledge/open.file/download?fileNo=54)
 <br><br>
-# ‡J bash‚Å‘€ì‚·‚é‚½‚ß‚ÉAƒRƒ“ƒeƒi‚ÖƒƒOƒCƒ“
+# â‘ª bashã§æ“ä½œã™ã‚‹ãŸã‚ã«ã€ã‚³ãƒ³ãƒ†ãƒŠã¸ãƒ­ã‚°ã‚¤ãƒ³
 ```
 docker exec -it CONTAINER_ID bash
 ```
-¨`CONTAINER_ID`‚ÍA‘Sˆõ•Ê‚ÌID‚ªU‚ç‚ê‚Ä‚¢‚Ü‚·B
+â†’`CONTAINER_ID`ã¯ã€å…¨å“¡åˆ¥ã®IDãŒæŒ¯ã‚‰ã‚Œã¦ã„ã¾ã™ã€‚
 ![image-20191120105929084.png](/knowledge/open.file/download?fileNo=53)
 
 <br><br>
-# ‡K ˆÈ‰º‚ğA‚Ps‚¸‚ÂÀs
+# â‘« ä»¥ä¸‹ã‚’ã€ï¼‘è¡Œãšã¤å®Ÿè¡Œ
 ```
-rails g model Task title:string context:string level:integer
+rails g model Employee number:string name:string date:string
 ```
 ```
 rails db:migrate
 ```
 ```
-rails g controller Tasks
+rails g controller Employees
 ```
 <br><br>
-# ‡L myapp\app\controllers@”z‰º‚ÌˆÈ‰º‚Ìƒtƒ@ƒCƒ‹‚ğ•ÒW‚·‚é
-‘ÎÛƒtƒ@ƒCƒ‹F
+# â‘¬ myapp\app\controllersã€€é…ä¸‹ã®ä»¥ä¸‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç·¨é›†ã™ã‚‹
+å¯¾è±¡ãƒ•ã‚¡ã‚¤ãƒ«ï¼šemployees_controller.rb
 ```
+class EmployeesController < ApplicationController
+  def index
+    @employees = Employee.all
+  end
 
-```
-<br><br>
-# ‡M myapp\db@”z‰º‚ÌˆÈ‰º‚Ìƒtƒ@ƒCƒ‹‚ğ•ÒW‚·‚é
-‘ÎÛƒtƒ@ƒCƒ‹Fseeds.rb
-```
+ 
 
+  def show
+  end
+
+ 
+
+  def new
+  end
+
+ 
+
+  def create
+  end
+
+ 
+
+  def edit
+  end
+
+ 
+
+  def update
+  end
+
+ 
+
+  def destroy
+  end
+end
 ```
 <br><br>
-# ‡N DB‚Éƒf[ƒ^‚ğ‘—‚é
+# â‘­ myapp\dbã€€é…ä¸‹ã®ä»¥ä¸‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç·¨é›†ã™ã‚‹
+å¯¾è±¡ãƒ•ã‚¡ã‚¤ãƒ«ï¼šseeds.rb
+```
+Employee.create(
+  [
+    {
+      number: '001',
+      name: 'Yamada',
+      date: '2018/01/01',
+    },
+    {
+      number: '002',
+      name: 'Tanaka',
+      date: '2019/04/01',
+    },
+    {
+      number: '003',
+      name: 'Sato',
+      date: '2019/05/01',
+    },
+  ],
+)
+```
+<br><br>
+# â‘® DBã«ãƒ‡ãƒ¼ã‚¿ã‚’é€ã‚‹
 ```
 rails db:seed
 ```
 <br><br>
-# ‡O myapp\config@”z‰º‚ÌˆÈ‰º‚Ìƒtƒ@ƒCƒ‹‚ğ•ÒW‚·‚é
-‘ÎÛƒtƒ@ƒCƒ‹Froutes.rb
+# â‘¯ myapp\configã€€é…ä¸‹ã®ä»¥ä¸‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç·¨é›†ã™ã‚‹
+å¯¾è±¡ãƒ•ã‚¡ã‚¤ãƒ«ï¼šroutes.rb
 ```
+Rails.application.routes.draw do
+  root to: 'employees#index'
 
-```
-<br><br>
-# ‡P ˆÈ‰º‚ğA‚Ps‚¸‚ÂÀs
-```
-touch app/views/tasks/index.html.erb
-```
-```
-touch app/views/tasks/show.html.erb
-```
-```
-touch app/views/tasks/new.html.erb
-```
-```
-touch app/views/tasks/edit.html.erb
-```
-<br><br>
-# ‡Q @”z‰º‚ÌˆÈ‰º‚Ìƒtƒ@ƒCƒ‹‚ğ•ÒW‚·‚é
-‘ÎÛƒtƒ@ƒCƒ‹Findex.html.erb
-```
+ 
 
+  resources :employees
+end
 ```
 <br><br>
-# ‡R ˆÈ‰º‚ÉÚ‘±‚µ‚ÄŠm”FI
+# â‘° ä»¥ä¸‹ã‚’ã€ï¼‘è¡Œãšã¤å®Ÿè¡Œ
+```
+touch app/views/employees/index.html.erb
+touch app/views/employees/show.html.erb
+touch app/views/employees/new.html.erb
+touch app/views/employees/edit.html.erb
+```
+<br><br>
+# â‘± ã€€é…ä¸‹ã®ä»¥ä¸‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç·¨é›†ã™ã‚‹
+å¯¾è±¡ãƒ•ã‚¡ã‚¤ãƒ«ï¼šindex.html.erb
+```
+<h1>List of employees</h1>
+
+<table border="1" width="700" cellspacing="0" cellpadding="5" bordercolor="#333333" class="table table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th bgcolor="#87cefa" class="align-middle" scope="col" width="100"><font size="+1" color="#FFFFFF">Employee no</font></th>
+      <th bgcolor="#87cefa" class="align-middle" scope="col" width="400"><font size="+1" color="#FFFFFF">Name</font></th>
+      <th bgcolor="#87cefa" class="align-middle" scope="col" width="150"><font size="+1" color="#FFFFFF">Hire date</font></th>
+    </tr>
+  </thead>
+
+
+  <tbody>
+    <% @employees.each do |employee| %>
+      <tr scope="row">
+        <td><%= employee.number %></td>
+        <td><%= employee.name %></td>
+        <td><%= employee.date %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+```
+<br><br>
+# â‘² ä»¥ä¸‹ã«æ¥ç¶šã—ã¦ç¢ºèªï¼
 ```
 http://localhost:3000/
 ```
 ![image-20191121003744232.png](/knowledge/open.file/download?fileNo=56)
 <br>
-‚±‚Ì‚æ‚¤‚È‰æ–Ê‚ª•\¦‚³‚ê‚½‚çŠ®¬I
+ã“ã®ã‚ˆã†ãªç”»é¢ãŒè¡¨ç¤ºã•ã‚ŒãŸã‚‰å®Œæˆï¼
