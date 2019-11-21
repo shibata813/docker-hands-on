@@ -6,7 +6,7 @@
 cd C:\Users\myapp
 ```
 <br><br>
-# ③ Railsの新規プロジェクトを作成する
+# ③ Railsの新規プロジェクトを作成します
 ```
 docker-compose run web rails new . --force --no-deps --database=mysql
 ```
