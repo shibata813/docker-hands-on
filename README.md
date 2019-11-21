@@ -39,7 +39,7 @@ docker-compose build
 docker-compose up -d db
 ```
 <br><br>
-# ⑨ webを起動します
+# ⑨ サービスを起動します
 ```
 docker-compose run web rake db:create
 ```
