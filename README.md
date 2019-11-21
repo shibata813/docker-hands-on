@@ -200,13 +200,13 @@ rails db:migrate
 # Personalへのルーティングを追加
 config/routes.rb
 
-```
-Rails.application.routes.draw do
-  resources :personals
-    root to: 'employees#index'
-    resources :employees
-     resources :personal # <- 追加
-end
+```diff
+ Rails.application.routes.draw do
+   resources :personals
+     root to: 'employees#index'
+     resources :employees
++     resources :personal
+ end
 ```
 
 
