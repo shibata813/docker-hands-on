@@ -49,7 +49,6 @@ docker-compose run web rake db:create
 docker-compose up -d
 ```
 <br><br>
-![image-20191120110345036.png](/knowledge/open.file/download?fileNo=54)
 <br>
 # ★チェックポイント★
 正常に起動しているかを確認
