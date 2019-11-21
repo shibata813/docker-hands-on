@@ -171,8 +171,14 @@ end
 # ⑰ 以下を、１行ずつ実行
 ```
 touch app/views/employees/index.html.erb
+```
+```
 touch app/views/employees/show.html.erb
+```
+```
 touch app/views/employees/new.html.erb
+```
+```
 touch app/views/employees/edit.html.erb
 ```
 <br><br>
