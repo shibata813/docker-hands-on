@@ -71,8 +71,9 @@ http://localhost:3000/
 ```
 docker exec -it CONTAINER_ID bash
 ```
-→`CONTAINER_ID`は、全員別のIDが振られています。
-![image-20191120105929084.png](/knowledge/open.file/download?fileNo=53)
+→`CONTAINER_ID`は、全員別のIDが振られています。br
+<br>
+![image-20191120105929084](https://user-images.githubusercontent.com/53431136/69325163-10343380-0c8d-11ea-9e62-1147d344f4cd.png)
 
 <br><br>
 # ⑫ 以下を、１行ずつ実行
