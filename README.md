@@ -59,9 +59,12 @@ docker ps -a
 <br>
 
 以下に接続してみましょう！
+<br><br>
 ```
 http://localhost:3000/
 ```
+![rails](https://user-images.githubusercontent.com/53431136/69325441-85076d80-0c8d-11ea-9610-786f056a8201.png)
+
 
 <br><br>
 
