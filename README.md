@@ -90,36 +90,6 @@ class EmployeesController < ApplicationController
   def index
     @employees = Employee.all
   end
-
- 
-
-  def show
-  end
-
- 
-
-  def new
-  end
-
- 
-
-  def create
-  end
-
- 
-
-  def edit
-  end
-
- 
-
-  def update
-  end
-
- 
-
-  def destroy
-  end
 end
 ```
 <br><br>
@@ -164,19 +134,11 @@ Rails.application.routes.draw do
 end
 ```
 <br><br>
-# ⑰ 以下を、１行ずつ実行
+# ⑰ 以下のコマンドで画面を作成する
 ```
 touch app/views/employees/index.html.erb
 ```
-```
-touch app/views/employees/show.html.erb
-```
-```
-touch app/views/employees/new.html.erb
-```
-```
-touch app/views/employees/edit.html.erb
-```
+
 <br><br>
 # ⑱ 　配下の以下のファイルを編集する
 対象ファイル：index.html.erb
