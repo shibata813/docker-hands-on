@@ -56,10 +56,9 @@ docker-compose up -d
 ```
 docker ps -a
 ```
-![image-20191120105738281.png](/knowledge/open.file/download?fileNo=52)
 ↑のように「myapp_web」と「mysql」のコンテナがupしていればOK！
 <br>
-![image-20191120110345036.png](/knowledge/open.file/download?fileNo=54)
+
 <br>
 以下に接続してみましょう！
 ```
