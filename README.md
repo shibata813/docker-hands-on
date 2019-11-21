@@ -60,7 +60,14 @@ docker ps -a
 ↑のように「myapp_web」と「mysql」のコンテナがupしていればOK！
 <br>
 ![image-20191120110345036.png](/knowledge/open.file/download?fileNo=54)
+<br>
+以下に接続してみましょう！
+```
+http://localhost:3000/
+```
+
 <br><br>
+
 # ⑪ bashで操作するために、コンテナへログイン
 ```
 docker exec -it CONTAINER_ID bash
