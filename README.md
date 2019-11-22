@@ -77,7 +77,7 @@ docker exec -it myapp_web_1 bash
 ```
 
 <br><br>
-# ⑫ 以下を、１行ずつ実行
+# ⑫ 以下を、１行ずつ実行します
 ```
 rails g model Employee number:string name:string date:string
 ```
@@ -88,7 +88,7 @@ rails db:migrate
 rails g controller Employees
 ```
 <br><br>
-# ⑬ myapp\app\controllers　配下の以下のファイルを編集する
+# ⑬ myapp\app\controllers　配下の以下のファイルを編集します
 対象ファイル：employees_controller.rb
 ```
 class EmployeesController < ApplicationController
@@ -98,7 +98,7 @@ class EmployeesController < ApplicationController
 end
 ```
 <br><br>
-# ⑭ myapp\db　配下の以下のファイルを編集する
+# ⑭ myapp\db　配下の以下のファイルを編集します
 対象ファイル：seeds.rb
 ```
 Employee.create(
@@ -122,12 +122,12 @@ Employee.create(
 )
 ```
 <br><br>
-# ⑮ ⑭のファイルを元にデータを作成する
+# ⑮ ⑭のファイルを元にデータを作成します
 ```
 rails db:seed
 ```
 <br><br>
-# ⑯ myapp\config　配下の以下のファイルを編集する
+# ⑯ myapp\config　配下の以下のファイルを編集します
 対象ファイル：routes.rb
 ```
 Rails.application.routes.draw do
@@ -136,13 +136,13 @@ Rails.application.routes.draw do
 end
 ```
 <br><br>
-# ⑰ 以下のコマンドで画面を作成する
+# ⑰ 以下のコマンドで画面を作成します
 ```
 touch app/views/employees/index.html.erb
 ```
 
 <br><br>
-# ⑱ app/views/employees　配下の以下のファイルを編集する
+# ⑱ app/views/employees　配下の以下のファイルを編集します
 対象ファイル：index.html.erb
 ```
 <h1>List of employees</h1>
@@ -183,22 +183,22 @@ http://localhost:3000/
 
 <br>
 
-# モデルから画面まで自動生成
+# モデルから画面まで自動生成します
 
 ```
 rails g scaffold Personal number:string name:string date:string
 ```
 <br>
 
-# 追加したモデルの分テーブルを作成する
+# 追加したモデルの分テーブルを作成します
 
 ```
 rails db:migrate
 ```
 <br>
 
-# Personalへのルーティングを追加
-config/routes.rb
+# Personalへのルーティングを追加します
+app/config/routes.rb
 
 ```diff
  Rails.application.routes.draw do
