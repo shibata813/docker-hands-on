@@ -142,7 +142,7 @@ touch app/views/employees/index.html.erb
 ```
 
 <br><br>
-# ⑱ 　配下の以下のファイルを編集する
+# ⑱ app/views/employees　配下の以下のファイルを編集する
 対象ファイル：index.html.erb
 ```
 <h1>List of employees</h1>
