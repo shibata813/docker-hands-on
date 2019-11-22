@@ -197,18 +197,6 @@ rails db:migrate
 ```
 <br>
 
-# Personalへのルーティングを追加します
-app/config/routes.rb
-
-```diff
- Rails.application.routes.draw do
-   resources :personals
-     root to: 'employees#index'
-     resources :employees
-+     resources :personal
- end
-```
-
 # 以下に接続して確認！
 ```
 http://localhost:3000/personals
